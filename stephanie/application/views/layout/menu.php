@@ -2,7 +2,7 @@
 
 <div id="sidebar"> <a href="#" class="visible-phone"><i class="icon icon-file"></i> Addons</a>
   <ul>
-      <li class="submenu"><a href="#"><i class="icon icon-picture"></i> Fotos <span class="label label-important">2</span></a>
+      <li class="submenu"><a href="#"><i class="icon icon-picture"></i> Fotos <span class="label label-important"><i class="icon icon-chevron-down"></i></span></a>
           <ul>
               <li><a href="/fotos/agregar/">Agregar</a></li>
               <li><a href="/fotos/galerias/1/1/">Galerías</a></li>

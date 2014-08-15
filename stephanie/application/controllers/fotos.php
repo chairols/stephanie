@@ -28,6 +28,8 @@ class Fotos extends CI_Controller {
         } else {
             $config['upload_path'] = './upload/';
             $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_width'] = '950';
+            $config['max_height'] = '500';
             
             $this->load->library('upload', $config);
             if ( ! $this->upload->do_upload('foto'))

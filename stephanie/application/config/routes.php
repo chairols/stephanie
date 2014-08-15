@@ -38,8 +38,13 @@
 |
 */
 
-$route['default_controller'] = "usuarios/login";
+$route['default_controller'] = "home";
 $route['404_override'] = '';
+$route['galeria/(:any)'] = 'galeria/index/$1';
+$route['retratos/(:any)'] = 'retratos/index/$1';
+$route['archivo/(:any)'] = 'archivo/index/$1';
+$route['libro/(:any)'] = 'libro/index/$1';
+$route['contacto/(:any)'] = 'contacto/index/$1';
 
 
 /* End of file routes.php */
