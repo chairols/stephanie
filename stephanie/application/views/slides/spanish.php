@@ -43,8 +43,8 @@ function MM_swapImage() { //v3.0
 <body onLoad="MM_preloadImages('/assets/imagenes/galeria2.jpg','/assets/imagenes/retratos2.jpg','/assets/imagenes/archivo2.jpg','/assets/imagenes/libro2.jpg','/assets/imagenes/contacto2.jpg')">
 <div class="header">
   <div  class="logo"><img src="/assets/imagenes/logo.jpg" width="323" height="48" alt=""/>  </div>
-  <div class="redessociales"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt=""/></div>
-  <div class="redessociales"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt=""/></div> 
+  <div class="redessociales"><a href="https://www.facebook.com/estefania.desperies?fref=ts" target="_blank"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt="" border="0"/></a></div>
+  <div class="redessociales"><a href="http://instagram.com/stephdesperies" target="_blank"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt="" border="0"/></a></div> 
 </div>
     <div style="width: 950px; margin-left: auto; margin-right: auto;">
     <div class="slider">
@@ -72,7 +72,7 @@ function MM_swapImage() { //v3.0
 </html>
 <script type="text/javascript">
     $(document).ready(function() {
-         $(".slider").slideshow({
+        $(".slider").slideshow({
           timer         : false,
           control       : false,
           navigation    : true,
@@ -83,9 +83,9 @@ function MM_swapImage() { //v3.0
           bars          : 1,
           columns       : 1,
           padding       : 0,
-          duration      : 800,
+          duration      : 1000,
           speed         : 200,
-          delay         : 4500,
+          delay         : 7000,
           transition    : 'explode'
         });
 

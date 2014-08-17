@@ -83,9 +83,9 @@ function MM_swapImage() { //v3.0
           bars          : 1,
           columns       : 1,
           padding       : 0,
-          duration      : 800,
+          duration      : 1000,
           speed         : 200,
-          delay         : 4500,
+          delay         : 7000,
           transition    : 'explode'
         });
 

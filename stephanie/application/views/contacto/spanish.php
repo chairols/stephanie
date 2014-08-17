@@ -32,10 +32,35 @@ function MM_swapImage() { //v3.0
 <body onLoad="MM_preloadImages('/assets/imagenes/galeria2.jpg','/assets/imagenes/retratos2.jpg','/assets/imagenes/archivo2.jpg','/assets/imagenes/libro2.jpg','/assets/imagenes/contacto2.jpg')">
 <div class="header">
   <div  class="logo"><img src="/assets/imagenes/logo.jpg" width="323" height="48" alt=""/>  </div>
-  <div class="redessociales"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt=""/></div>
-  <div class="redessociales"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt=""/></div> 
+  <div class="redessociales"><a href="https://www.facebook.com/estefania.desperies?fref=ts" target="_blank"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt="" border="0"/></a></div>
+  <div class="redessociales"><a href="http://instagram.com/stephdesperies" target="_blank"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt="" border="0"/></a></div> 
 </div>
-<div class="slide"></div>
+<div class="slide">
+  <div class="telefono">
+    <div align="center"><img src="/assets/imagenes/telefono.jpg" width="472" height="96" alt=""/>
+    </div>
+  </div>
+    <div class="formulario"></div>
+    <form>
+    <table width="90%" border="0" align="center">
+      <tbody>
+        <tr>
+          <td><img src="/assets/imagenes/nombre.jpg" width="101" height="23" alt=""/></td>
+          <td><img src="/assets/imagenes/mail.jpg" width="58" height="22" alt=""/></td>
+          <td><img src="/assets/imagenes/consulta.jpg" width="126" height="28" alt=""/></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><input name="textfield" type="text" class="campo" id="textfield"></td>
+          <td><input name="textfield2" type="text" class="campo" id="textfield2"></td>
+          <td><input name="textfield3" type="text" class="campo" id="textfield3"></td>
+          <td><div align="right"><img src="/assets/imagenes/enviar.jpg" width="105" height="35" alt=""/></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+</div>
 <div class="menu">
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
     <tbody>
