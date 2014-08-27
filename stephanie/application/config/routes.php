@@ -44,6 +44,7 @@ $route['galeria/(:any)'] = 'galeria/index/$1';
 $route['retratos/(:any)'] = 'retratos/index/$1';
 $route['archivo/(:any)'] = 'archivo/index/$1';
 $route['libro/(:any)'] = 'libro/index/$1';
+$route['contacto/gracias/(:any)'] = 'contacto/gracias/$1';
 $route['contacto/(:any)'] = 'contacto/index/$1';
 
 

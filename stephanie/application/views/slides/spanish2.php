@@ -9,15 +9,19 @@
   <link rel="stylesheet" type="text/css" href="javascript/slider/themes/carbono/jquery.slider.ie6.css" />
   <![endif]-->
 
+  
+  <!--<link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/bootstrap/bootstrap-theme.min.css" />
+  <script src="/assets/bootstrap/jquery.min.js"></script>
+  <script src="/assets/bootstrap/bootstrap.min.js"></script>-->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
   <script type="text/javascript">
         $(document).ready(function(){
              $("#myCarousel").carousel({
-                 interval : 5000,
+                 interval : 1000,
                  pause: false
              });
         });
@@ -32,12 +36,8 @@ h2{
 }
 .item{
     text-align: center;
-    height: 500px;
-    width: 950px;
-}
-.imagen {
-    margin-left: auto;
-    margin-right: auto;
+    height: 500px !important;
+    width: 950px !important;
 }
 .carousel{
     margin-top: 20px;
@@ -46,7 +46,8 @@ h2{
 	margin: 20px;
 }
 </style>
-<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+  
+  
 <link href="/assets/css/web.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
@@ -75,30 +76,52 @@ function MM_swapImage() { //v3.0
 
 <body onLoad="MM_preloadImages('/assets/imagenes/galeria2.jpg','/assets/imagenes/retratos2.jpg','/assets/imagenes/archivo2.jpg','/assets/imagenes/libro2.jpg','/assets/imagenes/contacto2.jpg')">
 <div class="header">
-  <div  class="logo"><a href="http://stephaniedesperies.com/galeria/es"><img src="/assets/imagenes/logo.jpg" width="323" height="48" alt=""/></a> </div>
+  <div  class="logo"><img src="/assets/imagenes/logo.jpg" width="323" height="48" alt=""/>  </div>
   <div class="redessociales"><a href="https://www.facebook.com/estefania.desperies?fref=ts" target="_blank"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt="" border="0"/></a></div>
   <div class="redessociales"><a href="http://instagram.com/stephdesperies" target="_blank"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt="" border="0"/></a></div> 
 </div>
     <div style="width: 950px; margin-left: auto; margin-right: auto;">
+    
+        
+        
+        
+        
+        
+       
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <?php $i = 0; ?>
+                <?php foreach($fotos as $foto) { ?>
+                <li data-target="#myCarousel" data-slide-to="<?=$i?>" <?=($i==0)?"class='active'":""?>"></li>
+                <?php $i++; ?>
+                <?php } ?>
+
+            </ol>   
             <!-- Carousel items -->
             <div class="carousel-inner">
                 <?php $i = 0; ?>
                 <?php foreach($fotos as $foto) { ?>
                 <div class="<?=($i==0)?"active ":""?>item">
-                    <div align="center"><img src="/upload/<?=$foto['foto']?>" ></div>
+                    <img src="/upload/<?=$foto['foto']?>">
                 </div>
                 <?php $i++; ?>
                 <?php } ?>
             </div>
             <!-- Carousel nav -->
             <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                <span class="fa fa-angle-left"></span>
+                <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
             <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                <span class="fa fa-angle-right"></span>
+                <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
+       
+        
+        
+        
+        
+        
     </div>
 <div class="menu">
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -115,3 +138,8 @@ function MM_swapImage() { //v3.0
 </div>
 </body>
 </html>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".carousel-example-generic").carousel();
+        });
+</script>

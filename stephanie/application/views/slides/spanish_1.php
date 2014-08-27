@@ -40,11 +40,11 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onLoad="MM_preloadImages('/assets/imagenes/en/galeria2.jpg','/assets/imagenes/en/retratos2.jpg','/assets/imagenes/en/archivo2.jpg','/assets/imagenes/en/libro2.jpg','/assets/imagenes/en/contacto2.jpg')">
+<body onLoad="MM_preloadImages('/assets/imagenes/galeria2.jpg','/assets/imagenes/retratos2.jpg','/assets/imagenes/archivo2.jpg','/assets/imagenes/libro2.jpg','/assets/imagenes/contacto2.jpg')">
 <div class="header">
-  <div  class="logo"><a href="http://stephaniedesperies.com/galeria/en"><img src="/assets/imagenes/en/logo.jpg" width="323" height="48" alt=""/></a> </div>
-  <div class="redessociales"><img src="/assets/imagenes/en/facebook.jpg" width="40" height="34" alt=""/></div>
-  <div class="redessociales"><img src="/assets/imagenes/en/instagram.jpg" width="40" height="34" alt=""/></div> 
+  <div  class="logo"><img src="/assets/imagenes/logo.jpg" width="323" height="48" alt=""/>  </div>
+  <div class="redessociales"><a href="https://www.facebook.com/estefania.desperies?fref=ts" target="_blank"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt="" border="0"/></a></div>
+  <div class="redessociales"><a href="http://instagram.com/stephdesperies" target="_blank"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt="" border="0"/></a></div> 
 </div>
     <div style="width: 950px; margin-left: auto; margin-right: auto;">
     <div class="slider">
@@ -59,11 +59,11 @@ function MM_swapImage() { //v3.0
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
     <tbody>
       <tr>
-        <td><a href="/galeria/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','/assets/imagenes/en/galeria2.jpg',1)"><img src="/assets/imagenes/en/galeria<?=($segmento=='galeria')?"2":"1"?>.jpg" alt="" width="154" height="35" id="Image4"></a></td>
-        <td><a href="/retratos/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/en/retratos2.jpg',1)"><img src="/assets/imagenes/en/retratos<?=($segmento=='retratos')?"2":"1"?>.jpg" alt="" width="230" height="35" id="Image5"></a></td>
-        <td><a href="/archivo/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','/assets/imagenes/en/archivo2.jpg',1)"><img src="/assets/imagenes/en/archivo<?=($segmento=='archivo')?"2":"1"?>.jpg" alt="" width="205" height="35" id="Image6"></a></td>
-        <td><a href="/libro/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','/assets/imagenes/en/libro2.jpg',1)"><img src="/assets/imagenes/en/libro<?=($segmento=='libro')?"2":"1"?>.jpg" alt="" width="171" height="35" id="Image7"></a></td>
-        <td><a href="/contacto/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','/assets/imagenes/en/contacto2.jpg',1)"><img src="/assets/imagenes/en/contacto1.jpg" alt="" width="183" height="35" id="Image8"></a></td>
+        <td><a href="/galeria/es" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','/assets/imagenes/galeria2.jpg',1)"><img src="/assets/imagenes/galeria<?=($segmento=='galeria')?"2":"1"?>.jpg" alt="" width="154" height="35" id="Image4"></a></td>
+        <td><a href="/retratos/es" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/retratos2.jpg',1)"><img src="/assets/imagenes/retratos<?=($segmento=='retratos')?"2":"1"?>.jpg" alt="" width="230" height="35" id="Image5"></a></td>
+        <td><a href="/archivo/es" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','/assets/imagenes/archivo2.jpg',1)"><img src="/assets/imagenes/archivo<?=($segmento=='archivo')?"2":"1"?>.jpg" alt="" width="205" height="35" id="Image6"></a></td>
+        <td><a href="/libro/es" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','/assets/imagenes/libro2.jpg',1)"><img src="/assets/imagenes/libro<?=($segmento=='libro')?"2":"1"?>.jpg" alt="" width="171" height="35" id="Image7"></a></td>
+        <td><a href="/contacto/es" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','/assets/imagenes/contacto2.jpg',1)"><img src="/assets/imagenes/contacto1.jpg" alt="" width="183" height="35" id="Image8"></a></td>
       </tr>
     </tbody>
   </table>
@@ -72,7 +72,7 @@ function MM_swapImage() { //v3.0
 </html>
 <script type="text/javascript">
     $(document).ready(function() {
-         $(".slider").slideshow({
+        $(".slider").slideshow({
           timer         : false,
           control       : false,
           navigation    : true,

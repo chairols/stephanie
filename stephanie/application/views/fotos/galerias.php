@@ -1,3 +1,4 @@
+<title>Stephanie Admin</title>
 <div id="content">
     <div id="content-header">
         <h1>Galerías de Fotos</h1>

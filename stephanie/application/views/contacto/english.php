@@ -27,24 +27,55 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+<style>
+    .enviar {
+            background: #000;
+            border: #000;
+    }
+</style>
 </head>
 
-<body onLoad="MM_preloadImages('/assets/imagenes/galeria2.jpg','/assets/imagenes/retratos2.jpg','/assets/imagenes/archivo2.jpg','/assets/imagenes/libro2.jpg','/assets/imagenes/contacto2.jpg')">
+<body onLoad="MM_preloadImages('/assets/imagenes/en/galeria2.jpg','/assets/imagenes/en/retratos2.jpg','/assets/imagenes/en/archivo2.jpg','/assets/imagenes/en/libro2.jpg','/assets/imagenes/en/contacto2.jpg')">
 <div class="header">
-  <div  class="logo"><img src="/assets/imagenes/logo.jpg" width="323" height="48" alt=""/>  </div>
-  <div class="redessociales"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt=""/></div>
-  <div class="redessociales"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt=""/></div> 
+  <div  class="logo"><a href="http://stephaniedesperies.com/galeria/en"><img src="/assets/imagenes/logo.jpg" width="323" height="48" alt=""/></a> </div>
+  <div class="redessociales"><a href="https://www.facebook.com/estefania.desperies?fref=ts" target="_blank"><img src="/assets/imagenes/facebook.jpg" width="40" height="34" alt="" border="0"/></a></div>
+  <div class="redessociales"><a href="http://instagram.com/stephdesperies" target="_blank"><img src="/assets/imagenes/instagram.jpg" width="40" height="34" alt="" border="0"/></a></div> 
 </div>
-<div class="slide"></div>
+<div class="slide">
+  <div class="telefono">
+    <div align="center"><img src="/assets/imagenes/telefono.jpg" width="472" height="96" alt=""/>
+    </div>
+  </div>
+    <div class="formulario"></div>
+    <form method="post">
+    <table width="90%" border="0" align="center">
+      <tbody>
+        <tr>
+          <td><img src="/assets/imagenes/en/nombre.jpg" width="101" height="23" alt=""/></td>
+          <td><img src="/assets/imagenes/en/mail.jpg" width="58" height="22" alt=""/></td>
+          <td><img src="/assets/imagenes/en/consulta.jpg" width="126" height="28" alt=""/></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><input name="nombre" type="text" class="campo" id="textfield" required autofocus></td>
+          <td><input name="email" type="email" class="campo" id="textfield2" required></td>
+          <td><input name="consulta" type="text" class="campo" id="textfield3" required></td>
+          <td><div align="right"><button type="submit" class="enviar"><img src="/assets/imagenes/en/enviar.jpg" width="105" height="35" alt=""/></button></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+</div>
 <div class="menu">
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
     <tbody>
       <tr>
-        <td><a href="/galeria/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','/assets/imagenes/galeria2.jpg',1)"><img src="/assets/imagenes/galeria1.jpg" alt="" width="154" height="35" id="Image4"></a></td>
-        <td><a href="/retratos/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/retratos2.jpg',1)"><img src="/assets/imagenes/retratos1.jpg" alt="" width="230" height="35" id="Image5"></a></td>
-        <td><a href="/archivo/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','/assets/imagenes/archivo2.jpg',1)"><img src="/assets/imagenes/archivo1.jpg" alt="" width="205" height="35" id="Image6"></a></td>
-        <td><a href="/libro/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','/assets/imagenes/libro2.jpg',1)"><img src="/assets/imagenes/libro1.jpg" alt="" width="171" height="35" id="Image7"></a></td>
-        <td><a href="/contacto/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','/assets/imagenes/contacto2.jpg',1)"><img src="/assets/imagenes/contacto1.jpg" alt="" width="183" height="35" id="Image8"></a></td>
+        <td><a href="/galeria/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','/assets/imagenes/en/galeria2.jpg',1)"><img src="/assets/imagenes/en/galeria1.jpg" alt="" width="154" height="35" id="Image4"></a></td>
+        <td><a href="/retratos/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/en/retratos2.jpg',1)"><img src="/assets/imagenes/en/retratos1.jpg" alt="" width="230" height="35" id="Image5"></a></td>
+        <td><a href="/archivo/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','/assets/imagenes/en/archivo2.jpg',1)"><img src="/assets/imagenes/en/archivo1.jpg" alt="" width="205" height="35" id="Image6"></a></td>
+        <td><a href="/libro/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','/assets/imagenes/en/libro2.jpg',1)"><img src="/assets/imagenes/en/libro1.jpg" alt="" width="171" height="35" id="Image7"></a></td>
+        <td><a href="/contacto/en" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','/assets/imagenes/en/contacto2.jpg',1)"><img src="/assets/imagenes/contacto2.jpg" alt="" width="183" height="35" id="Image8"></a></td>
       </tr>
     </tbody>
   </table>

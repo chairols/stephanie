@@ -43,27 +43,11 @@ function MM_swapImage() { //v3.0
 </div>
 <div class="slide">
   <div class="telefono">
-    <div align="center"><img src="/assets/imagenes/telefono.jpg" width="472" height="96" alt=""/>
+    <div align="center"><img src="/assets/imagenes/gracias.jpg" width="522" height="255" alt=""/>
     </div>
   </div>
     <div class="formulario"></div>
     <form method="post">
-    <table width="90%" border="0" align="center">
-      <tbody>
-        <tr>
-          <td><img src="/assets/imagenes/nombre.jpg" width="101" height="23" alt=""/></td>
-          <td><img src="/assets/imagenes/mail.jpg" width="58" height="22" alt=""/></td>
-          <td><img src="/assets/imagenes/consulta.jpg" width="126" height="28" alt=""/></td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><input name="nombre" type="text" class="campo" id="textfield" required autofocus></td>
-          <td><input name="email" type="email" class="campo" id="textfield2" required></td>
-          <td><input name="consulta" type="text" class="campo" id="textfield3" required></td>
-          <td><div align="right"><button type="submit" class="enviar"><img src="/assets/imagenes/enviar.jpg" width="105" height="35" alt=""/></button></div></td>
-        </tr>
-      </tbody>
-    </table>
   </form>
 </div>
 </div>

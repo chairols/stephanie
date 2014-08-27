@@ -9,6 +9,11 @@ class Retratos extends CI_Controller {
     }
     
     public function index($idioma = null) {
+        $this->load->library(array(
+            'uri'
+        ));
+        $data['segmento'] = $this->uri->segment(1);
+        
         $data['fotos'] = $this->fotos_model->gets_where(array('idcategoria' => '2'));
         
         if($idioma == "es") {
